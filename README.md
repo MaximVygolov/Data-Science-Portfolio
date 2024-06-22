@@ -1,6 +1,6 @@
 # Data Science Portfolio
 
-Этот репозиторий содержит проекты по анализу данных, выполненные с использованием SQL и Python. Каждый проект включает в себя обработку данных, анализ и визуализацию результатов.
+Этот репозиторий содержит проекты по анализу данных, выполненные с использованием Python и SQL. Проекты включают в себя обработку данных, анализ и визуализацию результатов.
 
 ## Цели
 
@@ -10,30 +10,29 @@
 
 ## Структура репозитория
 
-- `SQL-Projects/`: Проекты, выполненные с использованием SQL.
+- `Python-Projects/`: Проекты, выполненные с использованием SQL.
   - `Project1-SalesAnalysis/`: Анализ данных о продажах.
     - `data/`: Исходные данные.
-    - `queries.sql`: SQL-запросы для анализа данных.
+    - `visualizations/`: Визуализации результатов анализа
+    - `analisis.sql`: SQL-запросы для анализа данных.
     - `README.md`: Описание проекта и SQL-запросов.
-  - `Project2-CustomerInsights/`: Анализ данных о клиентах.
+  - `Project2-KIVA/`: Анализ данных о клиентах.
     - `data/`: Исходные данные.
-    - `queries.sql`: SQL-запросы для анализа данных.
+    - `KIVA_Analisis.sql`: SQL-запросы для анализа данных.
     - `README.md`: Описание проекта и SQL-запросов.
 
-- `Python-Projects/`: Проекты, выполненные с использованием Python.
+- `SQL-Projects/`: Проекты, выполненные с использованием Python.
   - `Project1-SalesAnalysis/`: Анализ данных о продажах с использованием Python.
     - `data/`: Исходные данные.
-    - `analysis.ipynb`: Jupyter Notebook с анализом данных.
-    - `visualizations/`: Визуализации результатов анализа.
+    - `queries.sql`: Jupyter Notebook с анализом данных.
     - `README.md`: Описание проекта и анализа данных.
-  - `Project2-CustomerInsights/`: Анализ данных о клиентах с использованием Python.
+  - `Project2-Global_Superstore_Sales_Analysis/`: Анализ данных о клиентах с использованием Python.
     - `data/`: Исходные данные.
-    - `analysis.ipynb`: Jupyter Notebook с анализом данных.
-    - `visualizations/`: Визуализации результатов анализа.
+    - `Global_Superstore_Analysis.ipynb`: Jupyter Notebook с анализом данных.
     - `README.md`: Описание проекта и анализа данных.
 
 ## Используемые инструменты
 
-- SQL (PostgreSQL, MySQL)
+- SQL
 - Python (Pandas, Matplotlib, Seaborn)
 - Jupyter Notebook
